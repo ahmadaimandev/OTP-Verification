@@ -4,7 +4,7 @@
     --theme-font: 'Poppins', sans-serif;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4070f4;
+    background: yellow; /*Temp Color*/
+}
+
+:where(.container, form, .input-field, header) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 :where(.container, form, .input-field, header) {
@@ -42,8 +49,8 @@ body {
 }
 
 .container header {
-    height: 65px;
     width: 65px;
+<<<<<<< Updated upstream
     background: #4070f4;
     color: #fff;
     font-size: 2.5rem;
@@ -57,10 +64,18 @@ header img {
     max-width: 250px;
     height: 90px;    
 }
+=======
+    width: 65px;
+    color: #0400ff;
+    font-size: 2.5rem;
+}
+
+>>>>>>> Stashed changes
 .container h4 {
     font-size: 1.25rem;
     color: #333;
     font-weight: 500;
+<<<<<<< Updated upstream
 }
 
 form .input-field {
@@ -108,4 +123,6 @@ form button.active {
 
 form button:hover {
     background: #0e4bf1;
+=======
+>>>>>>> Stashed changes
 }
