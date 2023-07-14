@@ -22,8 +22,8 @@ body {
 
 .container {
     background: #fff;
-    padding: 30px 60px;
-    border-radius: 12px;
+    padding: 40px 60px;
+    border-radius: 10px;
     row-gap: 20px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
@@ -40,7 +40,7 @@ body {
 .container h4 {
     font-size: 1rem;
     color: #333;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 form .input-field {
@@ -75,7 +75,7 @@ form button {
     border: none;
     padding: 9px;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 12px;
     pointer-events: none;
     background: #6e93f7;
     color: #fff;
@@ -85,8 +85,12 @@ form button {
 form button.active {
     background: #4070f4;
     pointer-events: auto;
+    transition: .3s all  ease-in;
 }
 
-form buttonL:hover {
-    background: #0e4bf1;
+form button:hover {
+    outline: 3px solid #4070f4;
+    background: none;
+    color: black;
+    transition: .3s all  ease-out;
 }
