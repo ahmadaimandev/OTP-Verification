@@ -1,3 +1,8 @@
+:root {
+    /*Theme Color*/
+    /*Theme Font*/
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,6 +48,12 @@ body {
     font-weight: 400;
 }
 
+.container span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4070f4;
+}
+
 form .input-field {
     flex-direction: row;
     column-gap: 10px;
@@ -85,12 +96,12 @@ form button {
 form button.active {
     background: #4070f4;
     pointer-events: auto;
-    transition: .3s all  ease-in;
+    transition: .2s all  ease-in;
 }
 
 form button:hover {
     outline: 3px solid #4070f4;
     background: none;
     color: black;
-    transition: .3s all  ease-out;
+    transition: .2s all  ease-out-;
 }
